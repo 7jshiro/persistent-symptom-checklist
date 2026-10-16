@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+    <title> Persistent Symptom Checklist</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body
+    <header>
+        <h1>Persistent Symptom Checklist</h1>
+        <p>Track your Symptom and monitor how you feel.</p>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <h2>Record a Symptom</h2>
+
+            <form id="symptom-form">
+                <label for="symptom">Symptom</label>
+                <input
+                  type="text"
+                  id="symptom"
+                  placeholder="e.g.Headache"
+                  required
+                >
+                
+                <label for="severity">Severity</label>
+                <select id="severity"
+                 <option value="Mild">Mild</option>
+                   <option value="Moderate">Moderate</option>
+                   <option value="Severe">Severe</option>
+
+            </select>
+
+            <label for=" date">Date noticed</label>
+            <input type="date" id="date"required>
+
+            <label for="notes">Addtional notes</label>
+            <textarea
+                id="notes"
+                placeholder="Describe your symptoms..."
+                ></textarea>
+
+                <button type="submit">save symptom</button>
+                </form>
+                </section>
+
+                <section class="records"
+                  <h2>Saved Symptoms</h2>
+                  <div id="symptom-list">
+                    <p>Your saved symptomwill appear here.</p>
+                  </div>
+                </section>
+            </main>
+
+            <script type="module" src="app.js"><</script>
+            </body>
+            </html>
+
+
+

@@ -1,0 +1,97 @@
+•	{
+  Box-sizing: border-box;
+}
+
+Body {
+  Margin: 0;
+  Font-family: Arial, sans-serif;
+  Background: #f1f5fb;
+  Color: #243047;
+  Line-height: 1.5;
+}
+
+Header {
+  Background: #2458a6;
+  Color: white;
+  Text-align: center;
+  Padding: 35px 20px;
+}
+
+Header h1 {
+  Margin: 0 0 10px;
+}
+
+Header p {
+  Margin: 0;
+}
+
+Main {
+  Width: 90%;
+  Max-width: 700px;
+  Margin: 30px auto;
+}
+
+.form-container,
+.records {
+  Background: white;
+  Padding: 25px;
+  Margin-bottom: 25px;
+  Border-radius: 14px;
+  Box-shadow: 0 4px 15px #00000010;
+}
+
+H2 {
+  Margin-top: 0;
+  Color: #2458a6;
+}
+
+Label {
+  Display: block;
+  Margin-top: 15px;
+  Margin-bottom: 6px;
+  Font-weight: bold;
+}
+
+Input,
+Select,
+Textarea {
+  Width: 100%;
+  Padding: 12px;
+  Border: 1px solid #ccd5e2;
+  Border-radius: 7px;
+  Font: inherit;
+}
+
+Textarea {
+  Min-height: 90px;
+  Resize: vertical;
+}
+
+Button {
+  Width: 100%;
+  Padding: 13px;
+  Margin-top: 20px;
+  Border: none;
+  Border-radius: 7px;
+  Background: #2458a6;
+  Color: white;
+  Font-size: 16px;
+  Font-weight: bold;
+  Cursor: pointer;
+}
+
+Button:hover {
+  Background: #173e79;
+}
+
+.symptom-card {
+  Padding: 15px;
+  Margin-top: 12px;
+  Border: 1px solid #dce4ef;
+  Border-radius: 10px;
+  Overflow-wrap: anywhere;
+}
+
+
+
+
